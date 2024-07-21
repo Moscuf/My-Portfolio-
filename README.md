@@ -13,7 +13,7 @@ Welcome to my portfolio! This project highlights my work using **HTML5**, **CSS*
 ---
 
 ## View Live Example
-[![Live Example](https://img.shields.io/badge/GitHub%20Pages-View%20Live%20Example-brightgreen)](https://moscuf.github.io/My-Portfolio-/)
+[![Live Example](https://moscuf.github.io/My-Portfolio-/)
 
 ---
 
