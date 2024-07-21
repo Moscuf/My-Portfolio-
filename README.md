@@ -1,7 +1,8 @@
 # Portfolio Showcase 🌐
 
 ## Welcome to My Portfolio!
-```css
+
+```text
 /* This project highlights my work using HTML5, CSS, and Python */
 
 ---
