@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patricio E Hernandez">
+    <meta name="description" content="Partido de Justicia y Dignidad Peronista">
+    <title>JDP</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Justicia y Dignidad Peronista</p>
+            <nav aria-label="Menú principal">
+                <a href="#somos-peronistas">Quienes somos</a>
+                <a href="#nuestros-proyectos">Nuestros Proyectos</a>
+                <a href="#testimonios">Testimonios</a>
+                <a href="#apoyanos">Apóyanos</a>
+            </nav>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Aprende de la historia Argentina</h1>
+            <form action="https://es.wikipedia.org/wiki/Juan_Domingo_Per%C3%B3n">
+                <button type="submit">Perón</button>
+            </form>
+        </div>
+    </section>
+    <section id="somos-peronistas">
+        <div class="container">
+            <div class="img-container">
+                <img src="media/somos.jpg" alt="Somos el Pueblo">
+            </div>
+            <h2>Somos el <span class="color-acento">Pueblo!</span></h2>
+            <p>Es el pueblo de la Patria. Es el mismo pueblo que en esta histórica plaza pidió frente al Congreso que se respetara su voluntad y su derecho. Es el mismo pueblo que ha de ser inmortal, porque no habrá perfidia ni maldad humana que pueda estremecer a este pueblo, grandioso en sentimiento y en número"</p>
+        </div>
+    </section>
+    <section id="nuestros-proyectos">
+        <div class="container">
+            <h2>Justicia y Dignidad Peronista</h2>
+            <div class="tres-cartas">
+                <div class="carta">
+                    <h3>Proyecto 1: Educación</h3>
+                    <p>Promovemos la educación pública y gratuita para todos los ciudadanos, asegurando el acceso igualitario a una educación de calidad.</p>
+                    <button onclick="openModal('modal1')">+info</button>
+                </div>
+                <div class="carta">
+                    <h3>Proyecto 2: Salud</h3>
+                    <p>Trabajamos para mejorar el sistema de salud, garantizando atención médica universal y gratuita para todos los argentinos.</p>
+                    <button onclick="openModal('modal2')">+info</button>
+                </div>
+                <div class="carta">
+                    <h3>Proyecto 3: Vivienda</h3>
+                    <p>Desarrollamos programas de vivienda accesible para asegurar que cada familia tenga un hogar digno.</p>
+                    <button onclick="openModal('modal3')">+info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✌🏼 100% peronistas</li>
+                <li>✌🏼 Militantes comprometidos</li>
+                <li>✌🏼 Oficiales del movimiento</li>
+            </ul>
+        </div>
+    </section>
+    <section id="testimonios">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <div class="testimonios-slider">
+                <div class="testimonio">
+                    <p>"Gracias a los proyectos de Justicia y Dignidad Peronista, mi hijo ahora tiene acceso a una educación de calidad."</p>
+                    <h3>- Juan Pérez</h3>
+                </div>
+                <div class="testimonio">
+                    <p>"La mejora en el sistema de salud ha sido increíble. Ahora recibo la atención médica que necesito sin costos excesivos."</p>
+                    <h3>- María Gómez</h3>
+                </div>
+                <div class="testimonio">
+                    <p>"Finalmente, mi familia tiene una vivienda digna. Estamos muy agradecidos por el apoyo brindado."</p>
+                    <h3>- Carlos Rodríguez</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="apoyanos">
+        <div class="container">
+            <h2>¿Listo para conocer la historia?</h2>
+            <a href="https://es.wikipedia.org/wiki/Historia_de_Argentina" class="btn-argentina">ARGENTINA</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; Justicia Y Dignidad Peronista JDP</p>
+        </div>
+    </footer>
+
+    <!-- Modales de Proyectos -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Proyecto 1: Educación</h2>
+            <p>Detalles adicionales sobre el proyecto de educación...</p>
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Proyecto 2: Salud</h2>
+            <p>Detalles adicionales sobre el proyecto de salud...</p>
+        </div>
+    </div>
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Proyecto 3: Vivienda</h2>
+            <p>Detalles adicionales sobre el proyecto de vivienda...</p>
+        </div>
+    </div>
+
+    <script>
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+        }
+        
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
