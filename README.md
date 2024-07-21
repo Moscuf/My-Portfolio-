@@ -6,7 +6,6 @@ This is a portfolio showcasing my work using HTML5, CSS, and Python.
 **Patricio Hernandez**
 
 [LinkedIn](https://www.linkedin.com/in/patricio-sleeping-forest/)  
-[Web Portfolio](https://midominio.es/)
 
 ## View Live Example
 [https://moscuf.github.io/My-Portfolio-/](https://moscuf.github.io/My-Portfolio-/)
