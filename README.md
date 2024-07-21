@@ -1,9 +1,6 @@
 # Portfolio Showcase 🌐
 
-## Welcome to My Portfolio!
-
-```text
-/* This project highlights my work using HTML5, CSS, and Python */
+Welcome to my portfolio! This project highlights my work using **HTML5**, **CSS**, and **Python**.
 
 ---
 
@@ -36,4 +33,5 @@ Interested in hiring me? Feel free to contact me at:
 
 ---
 
-Thank you for visiting my portfolio!
+Thank you for visiting my portfolio! ;)
+
