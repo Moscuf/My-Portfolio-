@@ -1,18 +1,36 @@
-## Description 🌐
+# Portfolio Showcase 🌐
 
-This is a portfolio showcasing my work using HTML5, CSS, and Python.
+Welcome to my portfolio! This project highlights my work using **HTML5**, **CSS**, and **Python**.
+
+---
 
 ## Author ✍️
 **Patricio Hernandez**
 
-[LinkedIn](https://www.linkedin.com/in/patricio-sleeping-forest/)  
-[Portfolio Moscuf](https://github.com/Moscuf/My-Portfolio-)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Patricio%20Hernandez-blue)](https://www.linkedin.com/in/patricio-sleeping-forest/)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio%20Moscuf-green)](https://github.com/Moscuf/My-Portfolio-)
+
+---
 
 ## View Live Example
-[https://moscuf.github.io/My-Portfolio-/](https://moscuf.github.io/My-Portfolio-/)
+[![Live Example](https://img.shields.io/badge/GitHub%20Pages-View%20Live%20Example-brightgreen)](https://moscuf.github.io/My-Portfolio-/)
+
+---
 
 ## Installation
-This project does not require installation. Simply open the folder or double-click the .html file, or use Visual Studio Code.
+This project does not require installation. Simply:
+
+1. Open the folder.
+2. Double-click the `.html` file.
+3. Or use Visual Studio Code.
+
+---
 
 ## Hiring
-If you want to hire me, you can email me at [patricio.sc.13@gmail.com](mailto:patricio.sc.13@gmail.com) for inquiries.
+Interested in hiring me? Feel free to contact me at:
+
+📧 [patricio.sc.13@gmail.com](mailto:patricio.sc.13@gmail.com)
+
+---
+
+Thank you for visiting my portfolio!
