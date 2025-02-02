@@ -21,6 +21,7 @@ This project does not require installation. Simply:
 1. Open the folder.
 2. Double-click the .html file.
 3. Or use Visual Studio Code.
+4. you can also use the console 😁
 
 ---
 
